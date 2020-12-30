@@ -1,0 +1,477 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     CDISTrainNew
+Instances:    105
+Attributes:   21
+              R
+              G
+              B
+              SUM
+              MAX
+              MIN
+              Angular 2nd moment
+              Contrast
+              Correlation
+              variance
+              Inverse Difference Moment
+              Sum Average
+              Sum Variance
+              Sum Entropy
+              Entropy
+              Difference Variance
+              Difference Entropy
+              Informations Measuress of Correlations
+              Information Measures of Ccorrelation
+              Maximum Correlation COefficient
+              result
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    0.816028982122563
+    Node 3    -3.795868072234599
+    Node 4    9.90327962082603
+    Node 5    1.0185259229081516
+    Node 6    -1.3446915649423863
+    Node 7    -1.220311491148888
+    Node 8    0.2753221665764115
+    Node 9    -5.598136753706682
+    Node 10    0.9585599030996262
+    Node 11    7.364536730392075
+    Node 12    -0.11913345689535593
+    Node 13    -3.627607402141154
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.812372874116627
+    Node 3    2.4829564363053116
+    Node 4    -9.402407247387849
+    Node 5    -1.95515594331495
+    Node 6    -0.1940777669846244
+    Node 7    -0.6213411814221629
+    Node 8    -8.188017688670286
+    Node 9    6.103430434795068
+    Node 10    4.52654481536446
+    Node 11    -7.376866989802807
+    Node 12    -5.874484434918155
+    Node 13    2.493119759308319
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.5969061704387778
+    Node 3    -1.485929007740633
+    Node 4    -2.9913845016922402
+    Node 5    -1.111971173157168
+    Node 6    0.10660847514084815
+    Node 7    1.7896161564129454
+    Node 8    6.189013373179273
+    Node 9    2.0851682698774914
+    Node 10    -7.386983274577954
+    Node 11    -0.7400595879737276
+    Node 12    5.228068483471341
+    Node 13    -2.177902772392374
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.9262256524189946
+    Attrib R    2.4174129165332023
+    Attrib G    -3.419334055464315
+    Attrib B    -0.9935364117826848
+    Attrib SUM    -2.358758832403176
+    Attrib MAX    -2.319680878208179
+    Attrib MIN    0.024041718016938274
+    Attrib Angular 2nd moment    0.08830742564606191
+    Attrib Contrast    -0.03210220554817919
+    Attrib Correlation    0.10049992074312228
+    Attrib variance    -0.04266094390247363
+    Attrib Inverse Difference Moment    0.09797984501773294
+    Attrib Sum Average    0.012536303880092109
+    Attrib Sum Variance    -0.023060522140987718
+    Attrib Sum Entropy    -0.07334812825197778
+    Attrib Entropy    -0.0690850225909276
+    Attrib Difference Variance    -0.015071501884021676
+    Attrib Difference Entropy    -0.08051985273596202
+    Attrib Informations Measuress of Correlations    1.7902568265628294
+    Attrib Information Measures of Ccorrelation    0.2452754502360836
+    Attrib Maximum Correlation COefficient    -2.188625843515712
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.397527341037498
+    Attrib R    -3.4632647319993715
+    Attrib G    6.111491109877141
+    Attrib B    4.276219992649855
+    Attrib SUM    3.4135524034912224
+    Attrib MAX    3.3936552378982645
+    Attrib MIN    0.039443522450634316
+    Attrib Angular 2nd moment    -0.32905917679299257
+    Attrib Contrast    -0.03861179753623367
+    Attrib Correlation    -4.765350508737611
+    Attrib variance    -0.03232309525320096
+    Attrib Inverse Difference Moment    -0.40235298912574974
+    Attrib Sum Average    -0.04642072286270327
+    Attrib Sum Variance    0.024514716787820107
+    Attrib Sum Entropy    0.31698948842694236
+    Attrib Entropy    0.30333426128348956
+    Attrib Difference Variance    0.0020896327541071943
+    Attrib Difference Entropy    0.34966255144748576
+    Attrib Informations Measuress of Correlations    2.5369289463423046
+    Attrib Information Measures of Ccorrelation    -0.4254266806109608
+    Attrib Maximum Correlation COefficient    -7.288183573537689
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.6622174216732897
+    Attrib R    -0.2923907779983643
+    Attrib G    0.5768019030641354
+    Attrib B    0.2820703980335806
+    Attrib SUM    0.3355079599556434
+    Attrib MAX    0.28813562184167096
+    Attrib MIN    0.007995778326866723
+    Attrib Angular 2nd moment    0.030315015554886564
+    Attrib Contrast    0.01839413314680613
+    Attrib Correlation    1.6927957289716717
+    Attrib variance    0.03834777753721989
+    Attrib Inverse Difference Moment    -0.005568398841737332
+    Attrib Sum Average    -0.0022636365150703885
+    Attrib Sum Variance    -0.02938360866672899
+    Attrib Sum Entropy    -0.05744198397097968
+    Attrib Entropy    0.0017787143957418076
+    Attrib Difference Variance    0.04563085926419766
+    Attrib Difference Entropy    -0.026530904665734992
+    Attrib Informations Measuress of Correlations    0.14228180887615216
+    Attrib Information Measures of Ccorrelation    -0.15267137458187427
+    Attrib Maximum Correlation COefficient    0.42611292137453144
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.5222028205287428
+    Attrib R    0.509946055390559
+    Attrib G    -0.7450558579630288
+    Attrib B    -0.5748443816111751
+    Attrib SUM    -0.43841786218527395
+    Attrib MAX    -0.48232524997428977
+    Attrib MIN    0.0010755479948259747
+    Attrib Angular 2nd moment    0.45782176605146363
+    Attrib Contrast    -0.012074996801598271
+    Attrib Correlation    -0.16417808155110125
+    Attrib variance    -0.014956717296595388
+    Attrib Inverse Difference Moment    0.49319930095639103
+    Attrib Sum Average    -0.04073297673575831
+    Attrib Sum Variance    -0.0350468967770934
+    Attrib Sum Entropy    -0.4443631908057038
+    Attrib Entropy    -0.4549578100105857
+    Attrib Difference Variance    0.019301884420390963
+    Attrib Difference Entropy    -0.5077854668706417
+    Attrib Informations Measuress of Correlations    -0.3289995111603586
+    Attrib Information Measures of Ccorrelation    -0.4546480909806534
+    Attrib Maximum Correlation COefficient    -0.5756151162604367
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -1.7046342154842504
+    Attrib R    0.41760404183094996
+    Attrib G    0.16804457869866427
+    Attrib B    -0.42348640324835324
+    Attrib SUM    -0.44974610014581223
+    Attrib MAX    -0.3927411842545195
+    Attrib MIN    -0.018803026306620854
+    Attrib Angular 2nd moment    0.21656091623572704
+    Attrib Contrast    0.009242904262425869
+    Attrib Correlation    -1.481037455603436
+    Attrib variance    0.048590582622701495
+    Attrib Inverse Difference Moment    0.17005783814800457
+    Attrib Sum Average    0.021062646683866357
+    Attrib Sum Variance    0.042037220615188664
+    Attrib Sum Entropy    -0.17453378948200712
+    Attrib Entropy    -0.2346012961066226
+    Attrib Difference Variance    -0.037838065652860325
+    Attrib Difference Entropy    -0.21217510584565838
+    Attrib Informations Measuress of Correlations    -0.005827437014172997
+    Attrib Information Measures of Ccorrelation    -0.36760028000723083
+    Attrib Maximum Correlation COefficient    0.6688324677418608
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -4.575019323449669
+    Attrib R    -1.490740744591924
+    Attrib G    3.1455080104245026
+    Attrib B    -2.856526985162492
+    Attrib SUM    1.3772397952677458
+    Attrib MAX    1.4058311379311774
+    Attrib MIN    0.004022940417141983
+    Attrib Angular 2nd moment    -0.5792130791802933
+    Attrib Contrast    0.04406092652171199
+    Attrib Correlation    -1.5606064944919624
+    Attrib variance    0.007589253843834666
+    Attrib Inverse Difference Moment    -0.5935648303382532
+    Attrib Sum Average    -0.006585806443827703
+    Attrib Sum Variance    0.018769367453613864
+    Attrib Sum Entropy    0.5411225315662707
+    Attrib Entropy    0.548569936073118
+    Attrib Difference Variance    5.356341621952226E-4
+    Attrib Difference Entropy    0.5558086110963725
+    Attrib Informations Measuress of Correlations    -1.1175766537122511
+    Attrib Information Measures of Ccorrelation    -0.6568533955584348
+    Attrib Maximum Correlation COefficient    7.712376341589145
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.4321267676703358
+    Attrib R    2.2480226963824097
+    Attrib G    -7.524796065232048
+    Attrib B    -4.776100717497161
+    Attrib SUM    -2.2334216178295163
+    Attrib MAX    -2.260635063714763
+    Attrib MIN    0.04731076511749595
+    Attrib Angular 2nd moment    -0.29736629403064324
+    Attrib Contrast    0.003414553468952683
+    Attrib Correlation    -0.12856172087976817
+    Attrib variance    0.01042474596168478
+    Attrib Inverse Difference Moment    -0.2868214152130363
+    Attrib Sum Average    0.031934750950584595
+    Attrib Sum Variance    0.04167027394342901
+    Attrib Sum Entropy    0.25761115636379767
+    Attrib Entropy    0.2787531882438922
+    Attrib Difference Variance    0.04013300778200583
+    Attrib Difference Entropy    0.22646259731778298
+    Attrib Informations Measuress of Correlations    -0.3510291305261335
+    Attrib Information Measures of Ccorrelation    0.3747071237898577
+    Attrib Maximum Correlation COefficient    3.3600464154321625
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    5.326809827416618
+    Attrib R    0.19427290197807173
+    Attrib G    -2.4720127097172115
+    Attrib B    3.043716571476908
+    Attrib SUM    -0.204181751458689
+    Attrib MAX    -0.20996187367946118
+    Attrib MIN    0.011363760252725875
+    Attrib Angular 2nd moment    1.743799259783321
+    Attrib Contrast    -0.028580530552715856
+    Attrib Correlation    0.21318147110133745
+    Attrib variance    -0.022689136506733057
+    Attrib Inverse Difference Moment    1.6873447881884427
+    Attrib Sum Average    0.010451906671889534
+    Attrib Sum Variance    -0.046459336277065166
+    Attrib Sum Entropy    -1.6895103593001553
+    Attrib Entropy    -1.6923885591728434
+    Attrib Difference Variance    -0.0332816254978419
+    Attrib Difference Entropy    -1.7352958047098035
+    Attrib Informations Measuress of Correlations    3.5500801067360257
+    Attrib Information Measures of Ccorrelation    -1.1719350372558173
+    Attrib Maximum Correlation COefficient    -5.307066654896886
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -2.7299362216807803
+    Attrib R    -1.028059497402369
+    Attrib G    6.620669206154764
+    Attrib B    5.264561924863499
+    Attrib SUM    1.0063620701222311
+    Attrib MAX    0.986482888736059
+    Attrib MIN    -0.04728309381311135
+    Attrib Angular 2nd moment    -0.08837849848772424
+    Attrib Contrast    -0.016627032281541568
+    Attrib Correlation    0.8369839876705302
+    Attrib variance    0.0013186847604970478
+    Attrib Inverse Difference Moment    -0.12136748228239058
+    Attrib Sum Average    0.017224488190533543
+    Attrib Sum Variance    -0.030484224501287616
+    Attrib Sum Entropy    0.1356365661571404
+    Attrib Entropy    0.15384444693088978
+    Attrib Difference Variance    -0.015063560612995186
+    Attrib Difference Entropy    0.10514764329350035
+    Attrib Informations Measuress of Correlations    -0.4178630984706455
+    Attrib Information Measures of Ccorrelation    0.04413353630392353
+    Attrib Maximum Correlation COefficient    -1.7347622097135147
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -5.726386051690684
+    Attrib R    -1.0987226726153243
+    Attrib G    1.2980833491984072
+    Attrib B    -2.085950581561433
+    Attrib SUM    1.1080871489727955
+    Attrib MAX    1.1198842263307063
+    Attrib MIN    0.018901751454134197
+    Attrib Angular 2nd moment    1.1471970197027646
+    Attrib Contrast    -0.024946382351135957
+    Attrib Correlation    -2.3760284985455438
+    Attrib variance    0.04447402599490899
+    Attrib Inverse Difference Moment    1.1878644068244602
+    Attrib Sum Average    -0.004993221975007622
+    Attrib Sum Variance    0.007600658839037447
+    Attrib Sum Entropy    -1.1576464894050627
+    Attrib Entropy    -1.1819350576115613
+    Attrib Difference Variance    0.019515627822175474
+    Attrib Difference Entropy    -1.1622441477431382
+    Attrib Informations Measuress of Correlations    -1.5348999903533866
+    Attrib Information Measures of Ccorrelation    -1.8407825182766575
+    Attrib Maximum Correlation COefficient    4.348491297473832
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.8408886250000162
+    Attrib R    2.4509734021216447
+    Attrib G    -3.504528839460296
+    Attrib B    -0.6227045333633544
+    Attrib SUM    -2.391703827813326
+    Attrib MAX    -2.3634322894187423
+    Attrib MIN    0.013028927595620451
+    Attrib Angular 2nd moment    0.09941282483816566
+    Attrib Contrast    0.02355403649811287
+    Attrib Correlation    0.3399256932991799
+    Attrib variance    -0.028224954973757533
+    Attrib Inverse Difference Moment    0.07739114265649528
+    Attrib Sum Average    -0.015543921693123387
+    Attrib Sum Variance    0.04649847470362273
+    Attrib Sum Entropy    -0.08672042280150097
+    Attrib Entropy    -0.14008355877025938
+    Attrib Difference Variance    -0.04675645494903072
+    Attrib Difference Entropy    -0.11096472865428314
+    Attrib Informations Measuress of Correlations    1.934152604772342
+    Attrib Information Measures of Ccorrelation    0.3342616134830824
+    Attrib Maximum Correlation COefficient    -1.9375263985624516
+Class Healthy
+    Input
+    Node 0
+Class CMD
+    Input
+    Node 1
+Class CBSD
+    Input
+    Node 2
+
+
+Time taken to build model: 0.55 seconds
+
+=== Predictions on test data ===
+
+ inst#     actual  predicted error prediction
+     1  1:Healthy  1:Healthy       0.87 
+     2  1:Healthy  1:Healthy       1 
+     3  1:Healthy  1:Healthy       1 
+     4  1:Healthy  1:Healthy       0.994 
+     5     3:CBSD     3:CBSD       0.991 
+     6     3:CBSD     3:CBSD       0.942 
+     7     3:CBSD     3:CBSD       0.823 
+     8      2:CMD  1:Healthy   +   0.845 
+     9      2:CMD      2:CMD       0.789 
+    10      2:CMD      2:CMD       0.984 
+    11      2:CMD      2:CMD       0.999 
+     1  1:Healthy  1:Healthy       1 
+     2  1:Healthy  1:Healthy       0.993 
+     3  1:Healthy  1:Healthy       1 
+     4  1:Healthy  1:Healthy       1 
+     5     3:CBSD     3:CBSD       0.965 
+     6     3:CBSD     3:CBSD       0.996 
+     7     3:CBSD     3:CBSD       0.7 
+     8      2:CMD      2:CMD       0.586 
+     9      2:CMD      2:CMD       0.999 
+    10      2:CMD  1:Healthy   +   0.995 
+    11      2:CMD     3:CBSD   +   0.62 
+     1  1:Healthy      2:CMD   +   0.943 
+     2  1:Healthy  1:Healthy       0.983 
+     3  1:Healthy  1:Healthy       0.998 
+     4  1:Healthy  1:Healthy       0.494 
+     5     3:CBSD     3:CBSD       0.999 
+     6     3:CBSD     3:CBSD       0.984 
+     7     3:CBSD     3:CBSD       0.997 
+     8      2:CMD      2:CMD       0.999 
+     9      2:CMD      2:CMD       0.845 
+    10      2:CMD      2:CMD       0.967 
+    11      2:CMD      2:CMD       0.997 
+     1  1:Healthy  1:Healthy       1 
+     2  1:Healthy  1:Healthy       1 
+     3  1:Healthy  1:Healthy       1 
+     4  1:Healthy  1:Healthy       1 
+     5     3:CBSD     3:CBSD       0.999 
+     6     3:CBSD      2:CMD   +   0.991 
+     7     3:CBSD     3:CBSD       0.995 
+     8      2:CMD      2:CMD       0.991 
+     9      2:CMD      2:CMD       0.996 
+    10      2:CMD      2:CMD       0.99 
+    11      2:CMD      2:CMD       1 
+     1  1:Healthy  1:Healthy       1 
+     2  1:Healthy  1:Healthy       0.962 
+     3  1:Healthy  1:Healthy       0.993 
+     4  1:Healthy      2:CMD   +   0.979 
+     5     3:CBSD     3:CBSD       0.745 
+     6     3:CBSD     3:CBSD       0.838 
+     7     3:CBSD      2:CMD   +   0.655 
+     8      2:CMD      2:CMD       0.999 
+     9      2:CMD      2:CMD       1 
+    10      2:CMD      2:CMD       0.995 
+    11      2:CMD      2:CMD       0.979 
+     1  1:Healthy     3:CBSD   +   0.505 
+     2  1:Healthy  1:Healthy       0.941 
+     3  1:Healthy  1:Healthy       0.985 
+     4     3:CBSD     3:CBSD       0.984 
+     5     3:CBSD     3:CBSD       0.993 
+     6     3:CBSD     3:CBSD       0.985 
+     7     3:CBSD     3:CBSD       0.998 
+     8      2:CMD      2:CMD       0.983 
+     9      2:CMD      2:CMD       0.998 
+    10      2:CMD      2:CMD       0.998 
+     1  1:Healthy      2:CMD   +   0.931 
+     2  1:Healthy  1:Healthy       0.993 
+     3  1:Healthy  1:Healthy       0.995 
+     4     3:CBSD     3:CBSD       0.995 
+     5     3:CBSD     3:CBSD       0.998 
+     6     3:CBSD     3:CBSD       0.999 
+     7     3:CBSD     3:CBSD       0.955 
+     8      2:CMD      2:CMD       0.999 
+     9      2:CMD      2:CMD       0.977 
+    10      2:CMD      2:CMD       0.981 
+     1  1:Healthy  1:Healthy       1 
+     2  1:Healthy  1:Healthy       0.998 
+     3  1:Healthy      2:CMD   +   0.74 
+     4     3:CBSD     3:CBSD       0.997 
+     5     3:CBSD     3:CBSD       0.992 
+     6     3:CBSD     3:CBSD       0.973 
+     7     3:CBSD     3:CBSD       0.998 
+     8      2:CMD     3:CBSD   +   0.994 
+     9      2:CMD  1:Healthy   +   0.946 
+    10      2:CMD      2:CMD       0.922 
+     1  1:Healthy  1:Healthy       0.852 
+     2  1:Healthy  1:Healthy       0.625 
+     3  1:Healthy      2:CMD   +   0.992 
+     4     3:CBSD     3:CBSD       0.983 
+     5     3:CBSD      2:CMD   +   0.979 
+     6     3:CBSD     3:CBSD       0.96 
+     7     3:CBSD      2:CMD   +   0.768 
+     8      2:CMD      2:CMD       0.947 
+     9      2:CMD      2:CMD       0.515 
+    10      2:CMD      2:CMD       0.977 
+     1  1:Healthy  1:Healthy       0.959 
+     2  1:Healthy  1:Healthy       0.974 
+     3  1:Healthy  1:Healthy       0.723 
+     4     3:CBSD     3:CBSD       0.988 
+     5     3:CBSD      2:CMD   +   0.758 
+     6     3:CBSD     3:CBSD       0.603 
+     7     3:CBSD     3:CBSD       0.977 
+     8      2:CMD      2:CMD       0.889 
+     9      2:CMD      2:CMD       0.504 
+    10      2:CMD      2:CMD       0.977 
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          89               84.7619 %
+Incorrectly Classified Instances        16               15.2381 %
+Kappa statistic                          0.7714
+Mean absolute error                      0.1236
+Root mean squared error                  0.2966
+Relative absolute error                 27.7902 %
+Root relative squared error             62.8599 %
+Coverage of cases (0.95 level)          92.381  %
+Mean rel. region size (0.95 level)      43.4921 %
+Total Number of Instances              105     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.829    0.043    0.906      0.829    0.866      0.805    0.962     0.928     Healthy
+                 0.857    0.143    0.750      0.857    0.800      0.693    0.907     0.851     CMD
+                 0.857    0.043    0.909      0.857    0.882      0.827    0.970     0.943     CBSD
+Weighted Avg.    0.848    0.076    0.855      0.848    0.849      0.775    0.946     0.907     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 29  5  1 |  a = Healthy
+  3 30  2 |  b = CMD
+  0  5 30 |  c = CBSD
+
